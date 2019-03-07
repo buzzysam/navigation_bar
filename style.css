@@ -1,0 +1,33 @@
+li
+{
+    display: inline-block;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: black 2px solid ;
+}
+li li
+{
+    display: none;
+    background-color: cadetblue;
+}
+li li li 
+{
+    background-color: darkgray ;
+}
+li ul
+{
+    position: absolute;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+li li:hover ul
+{
+    margin-left: 60px;
+    margin-top: -25px;
+   
+}
+li:hover > * > li
+{
+    display: block;
+    
+}
